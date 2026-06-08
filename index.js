@@ -7,8 +7,11 @@ getJson({
     location: "Austin, Texas, United States",
     google_domain: "google.com",
     hl: "en",
+    gl: "us",
     api_key: process.env.SERP_API_KEY
-})
+},
+
+)
 
 // const search = async () => {
 //   const params = {
