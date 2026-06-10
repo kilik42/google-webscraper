@@ -1,17 +1,36 @@
-const {getJson} = require('serpapi');
-require('dotenv').config();
+const { getJson } = require("serpapi");
+require("dotenv").config();
 
-getJson({
-    engine: "google",
-    q: "Coffee",
-    location: "Austin, Texas, United States",
-    google_domain: "google.com",
-    hl: "en",
-    gl: "us",
-    api_key: process.env.SERP_API_KEY
-},
 
-)
+
+// getJson(
+//   {
+//     engine: "google_short_videos",
+//     q: "lobubu",
+  
+//     api_key: process.env.SERP_API_KEY,
+//   },
+//   (json) => {
+//     console.log(json);
+//   },
+// );
+
+
+
+// getJson(
+//   {
+//     engine: "google",
+//     q: "Coffee",
+//     location: "Austin, Texas, United States",
+//     google_domain: "google.com",
+//     hl: "en",
+//     gl: "us",
+//     api_key: process.env.SERP_API_KEY,
+//   },
+//   (json) => {
+//     console.log(json);
+//   },
+// );
 
 // const search = async () => {
 //   const params = {
