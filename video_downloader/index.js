@@ -69,7 +69,7 @@ app.get("/api/search", (req, res) => {
     }));
     res.json({ videos }); // return the search results as JSON
   });
-  
+
   // Here you would implement the logic to search for videos using the SERP API and return the results as JSON
   // For example, you could use the axios library to make a request to the SERP API and return the search results
   // axios.get(`https://serpapi.com/search?q=${query}&api_key=${API_KEY}`)
@@ -79,7 +79,7 @@ app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
 
-// will all ofthis work? yes, this code should work as long as you have yt-dlp installed and available in your system's PATH. You can install yt-dlp using pip:
+// his code should work as long as you have yt-dlp installed and available in your system's PATH. You can install yt-dlp using pip:
 
 // pip install yt-dlp
 
